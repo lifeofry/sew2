@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <header>
+  <head>
+    <title>Reviews</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="Survey.css">
+    <link href='https://fonts.googleapis.com/css?family=Nanum+Gothic' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+  </head>
+</header>
+  <body>
+    <article>
+    <div id="container">
+      <div id="top">
+        <div id="logo">
+          <a  id="linkpageindex" href="Home.html" style="font-family:Montserrat;font-size:36px;">
+            AusHealth
+          </a>
+        </div>
+        <div id="navigation">
+          <ul class="nav">
+            <li><a style="font-family:Montserrat;font-size:12px;" href="Profile.html">Profile</a></li>
+            <li><a style="font-family:Montserrat;font-size:12px;" href="FAQ.html">FAQ</a></li>
+            <li><a style="font-family:Montserrat;font-size:12px;" href="Search.html">Search</a></li>
+		        <li><a style="font-family:Montserrat;font-size:12px;" href="Home.html">Home</a></li>
+					</ul>
+        </div>
+      </div>
+      <div id="body">
+        <div id="survey">
+          <p style="font-family:Montserrat;font-size:16px;text-align:center">Review</p>
+          <p style="font-family:Montserrat;font-size:12px;text-align:left">Title:&nbsp;&nbsp;<input type="text" name="UorE" placeholder ="Enter Title" required></p>
+
+          <p style="font-family:Montserrat;font-size:12px;text-align:left;">What are you reviewing:
+          <select name="typeOfReview">
+            <option value="Service ">A Service </option>
+            <option value="Vicinity">A Vicinity</option>
+            <option value="Doctor/Nurse">A Doctor/Nurse</option>
+            <option value="Other ">Other</option>
+          </select>
+          </p>
+  
+           <p style="font-family:Montserrat;font-size:12px;text-align:left">Where did this take place?&nbsp;&nbsp;<input type="text" name="UorE" placeholder ="Location" required></p>
+    
+            <p style="font-family:Montserrat;font-size:12px;text-align:left;">Please rate your experience
+          <select name="Raiting">
+            <option value="Poor ">Poor</option>
+            <option value="Fair">Fair</option>
+            <option value="Average">Average</option>
+            <option value="Good ">Good</option>
+            <option value="Excellent ">Excellent</option>
+          </select>
+          </p> 
+
+      
+          <p style="font-family:Montserrat;font-size:12px;text-align:left;">Please explain your raiting: </p>
+          <textarea name="opinionativestatement" rows="5" cols="30"></textarea>
+          <br>
+
+          <p style="font-family:Montserrat;font-size:12px;text-align:left;">Would you recommend to others?
+          <select name="recomendation">
+            <option value="Never ">Never</option>
+            <option value="No">No</option>
+            <option value="Maybe">Maybe</option>
+            <option value="Yes ">Yes</option>
+            <option value="Absolutely ">Absolutely</option>
+          </select>
+          </p>
+
+
+          <form class="h" method="get" action="Reviews.html">
+            <button class="but" type="submit">Submit</button>
+          </form>
+        </div>
+        <br>
+		    <br>
+
+        <br>
+
+      </div>
+    </article>
+    <footer>
+      <div id="bottom">
+        <p style="text-align:center"><a href="termsofuse.html" style="text-align:center"><u>Terms of Use</u></a> &nbsp;&nbsp;<a href="AboutUs.html"><u>About Us</u></a> &nbsp;&nbsp;<a href="ContactUs.html"><u>Contact Us</u></a></p>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
